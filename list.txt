@@ -1,0 +1,19 @@
+1、全局安装 
+npm install -g webpack webpack-cli
+2、创建文件夹并进入
+3、初始化项目npm init -y
+4、安装style-loader和css-loader
+npm install style-loader css-loader --save-dev
+5、安装css中的图像处理
+npm install url-loader file-loader --save-dev
+6、安装js自动注入html文件中
+//安装html-webpack-plugin
+npm install html-webpack-plugin --save-dev
+//安装webpack webpack-cli
+npm install webpack webpack-cli --save-dev
+7、安装自动清除文件
+npm install clean-webpack-plugin --save-dev
+8、安装jquery
+npm install jquery --save
+8、安装自动更新和热部署
+npm install webpack-dev-server
